@@ -1,66 +1,69 @@
-from collections import deque
 import sys
+from collections import deque
 
-dr = [-1, 1, 0, 0]
-dc = [0, 0, -1, 1]
+def move(board, x, y, dx, dy):
+    dist = 0
+    while True:
+        nx, ny = x + dx, y + dy
+        cell = board[nx][ny]
+        if cell == '#':
+            break
+        x, y = nx, ny
+        dist += 1
+        if cell == 'O':
+            return x, y, dist, True
+    return x, y, dist, False
 
 def solve():
-    input = sys.stdin.read().split()
-    N, M = int(input[0]), int(input[1])
-    board = [list(row) for row in input[2:]]
+    input = sys.stdin.readline
+    N, M = map(int, input().split())
+    board = [list(input().rstrip()) for _ in range(N)]
 
-    visited = [[[[False] * M for _ in range(N)] for _ in range(M)] for _ in range(N)]
-    queue = deque()
+    rx = ry = bx = by = -1
+    for i in range(N):
+        for j in range(M):
+            if board[i][j] == 'R':
+                rx, ry = i, j
+                board[i][j] = '.'
+            elif board[i][j] == 'B':
+                bx, by = i, j
+                board[i][j] = '.'
 
-    rr, rc, br, bc = 0, 0, 0, 0
-    for r in range(N):
-        for c in range(M):
-            if board[r][c] == 'R':
-                rr, rc = r, c
-            elif board[r][c] == 'B':
-                br, bc = r, c
-    
-    queue.append((rr, rc, br, bc, 1))
-    visited[rr][rc][br][bc] = True
+    dirs = [(-1,0),(1,0),(0,-1),(0,1)]  # U D L R
+    visited = set()
+    visited.add((rx, ry, bx, by))
+    q = deque([(rx, ry, bx, by, 0)])
 
-    def move(r, c, dr, dc):
-        count = 0
+    while q:
+        rx, ry, bx, by, d = q.popleft()
+        if d == 10:
+            continue
 
-        while board[r + dr][c + dc] != '#' and board[r][c] != 'O':
-            r += dr
-            c += dc
-            count += 1
-        return r, c, count
+        for dx, dy in dirs:
+            nrx, nry, rdist, r_hole = move(board, rx, ry, dx, dy)
+            nbx, nby, bdist, b_hole = move(board, bx, by, dx, dy)
 
-    while queue:
-        rr, rc, br, bc, depth = queue.popleft()
-
-        if depth > 10:
-            break
-
-        for i in range(4):
-            nrr, nrc, r_cnt = move(rr, rc, dr[i], dc[i])
-            nbr, nbc, b_cnt = move(br, bc, dr[i], dc[i])
-
-            if board[nbr][nbc] == 'O':
+            if b_hole:
                 continue
-            
-            if board[nrr][nrc] == 'O':
-                print(depth)
+
+            if r_hole:
+                print(d + 1)
                 return
 
-            if nrr == nbr and nrc == nbc:
-                if r_cnt > b_cnt: 
-                    nrr -= dr[i]
-                    nrc -= dc[i]
+            if nrx == nbx and nry == nby:
+                if rdist > bdist:
+                    nrx -= dx
+                    nry -= dy
                 else:
-                    nbr -= dr[i]
-                    nbc -= dc[i]
+                    nbx -= dx
+                    nby -= dy
 
-            if not visited[nrr][nrc][nbr][nbc]:
-                visited[nrr][nrc][nbr][nbc] = True
-                queue.append((nrr, nrc, nbr, nbc, depth + 1))
+            state = (nrx, nry, nbx, nby)
+            if state not in visited:
+                visited.add(state)
+                q.append((nrx, nry, nbx, nby, d + 1))
 
     print(-1)
 
-solve()
+if __name__ == "__main__":
+    solve()
