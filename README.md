@@ -6,6 +6,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0200-number-of-islands](https://github.com/leejh0820/conding_test/tree/main/0200-number-of-islands/) | Medium |
 | [0739-daily-temperatures](https://github.com/leejh0820/conding_test/tree/main/0739-daily-temperatures/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
@@ -15,4 +16,20 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0739-daily-temperatures](https://github.com/leejh0820/conding_test/tree/main/0739-daily-temperatures/) | Medium |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0200-number-of-islands](https://github.com/leejh0820/conding_test/tree/main/0200-number-of-islands/) | Medium |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0200-number-of-islands](https://github.com/leejh0820/conding_test/tree/main/0200-number-of-islands/) | Medium |
+## Union-Find
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0200-number-of-islands](https://github.com/leejh0820/conding_test/tree/main/0200-number-of-islands/) | Medium |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0200-number-of-islands](https://github.com/leejh0820/conding_test/tree/main/0200-number-of-islands/) | Medium |
 <!---LeetCode Topics End-->
