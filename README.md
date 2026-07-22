@@ -32,4 +32,16 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/leejh0820/conding_test/tree/main/0200-number-of-islands/) | Medium |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/leejh0820/conding_test/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/leejh0820/conding_test/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
+## Backtracking
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/leejh0820/conding_test/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
 <!---LeetCode Topics End-->
