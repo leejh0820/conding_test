@@ -6,6 +6,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0046-permutations](https://github.com/leejh0820/conding_test/tree/main/LeetCode/Medium/0046-permutations/) | Medium |
 | [0200-number-of-islands](https://github.com/leejh0820/conding_test/tree/main/0200-number-of-islands/) | Medium |
 | [0739-daily-temperatures](https://github.com/leejh0820/conding_test/tree/main/0739-daily-temperatures/) | Medium |
 ## Stack
@@ -44,4 +45,5 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/leejh0820/conding_test/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
+| [0046-permutations](https://github.com/leejh0820/conding_test/tree/main/LeetCode/Medium/0046-permutations/) | Medium |
 <!---LeetCode Topics End-->
