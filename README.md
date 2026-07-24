@@ -22,11 +22,13 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/leejh0820/conding_test/tree/main/0200-number-of-islands/) | Medium |
 | [0743-network-delay-time](https://github.com/leejh0820/conding_test/tree/main/LeetCode/Medium/0743-network-delay-time/) | Medium |
+| [0787-cheapest-flights-within-k-stops](https://github.com/leejh0820/conding_test/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/leejh0820/conding_test/tree/main/0200-number-of-islands/) | Medium |
 | [0743-network-delay-time](https://github.com/leejh0820/conding_test/tree/main/LeetCode/Medium/0743-network-delay-time/) | Medium |
+| [0787-cheapest-flights-within-k-stops](https://github.com/leejh0820/conding_test/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -52,12 +54,19 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0743-network-delay-time](https://github.com/leejh0820/conding_test/tree/main/LeetCode/Medium/0743-network-delay-time/) | Medium |
+| [0787-cheapest-flights-within-k-stops](https://github.com/leejh0820/conding_test/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0743-network-delay-time](https://github.com/leejh0820/conding_test/tree/main/LeetCode/Medium/0743-network-delay-time/) | Medium |
+| [0787-cheapest-flights-within-k-stops](https://github.com/leejh0820/conding_test/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
 ## Shortest Path
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0743-network-delay-time](https://github.com/leejh0820/conding_test/tree/main/LeetCode/Medium/0743-network-delay-time/) | Medium |
+| [0787-cheapest-flights-within-k-stops](https://github.com/leejh0820/conding_test/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/leejh0820/conding_test/tree/main/LeetCode/Medium/0787-cheapest-flights-within-k-stops/) | Medium |
 <!---LeetCode Topics End-->
